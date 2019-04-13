@@ -26,7 +26,7 @@
 Data obtained during interviews on language usage from about 15 fieldtrips (see \citep{dobrushina2013} for methodology details) and  collected into \textbf{Atlas of Multilingualism in Daghestan} \citep{multidagestan17}:
 \begin{itemize}
 \item 46 Daghestanian villages
-\item 24 langugages \pause
+\item 24 langugages (Russian excluded) \pause
 \item 29 860 people born between 1900 and 1959
 \begin{itemize}
 \item 14 410  females (48.2\%)
@@ -35,9 +35,9 @@ Data obtained during interviews on language usage from about 15 fieldtrips (see 
 \item variable containing number of known languages\pause
 \item we grouped all villages into three categories according to the nowaday number of speakers
 \begin{itemize}
-\item \alert{\textbf{big}} --- 100 000 speakers and more
-\item \alert{\textbf{medium}} --- 10 000--30 000 speakers
-\item \alert{\textbf{small}} --- one village languages, 1 000--2 000 speakers
+\item {\Large \color{colorbig} \textbf{big}} --- 100 000 speakers and more
+\item {\Large \color{colormedium} \textbf{medium}} --- 10 000--30 000 speakers
+\item {\Large \color{colorsmall} \textbf{small}} --- one village languages, 1 000--2 000 speakers
 \end{itemize}
 \end{itemize}
 \end{frame}
@@ -58,14 +58,35 @@ Data obtained during interviews on language usage from about 15 fieldtrips (see 
 
 \framepic{images/10_map_1950_930_700}
 
-\framecard[colorblue]{{\color{colorwhite} \huge Analysis}}
+\framepic{images/11_panel_1100_750}
 
-\framecard[colorblue]{{\color{colorwhite} \huge Thank you! \bigskip\\
-\Large Send us a letter!\\
+\begin{frame}{Median number of L2 in each village by decade and language category}
+\hspace{-0.9cm}\includegraphics[width=1.08\linewidth]{images/12_panel_1100_750}
+\end{frame}
+
+\begin{frame}{Poisson Mixed Effects Model}
+\includegraphics[width=0.87\linewidth]{images/13_poisson}
+\end{frame}
+
+\begin{frame}{Poisson Mixed Effects Model: Residuals}
+\includegraphics[width=\linewidth]{images/14_poisson_residuals_750_400}
+\end{frame}
+
+\begin{frame}{Conclussions:}
+\begin{itemize}
+\item The variable language size is statistically signifficant.
+\item Obtained coefficients could be interpret as following:\\
+\includegraphics[width=\linewidth]{images/15_predicted_750_400}
+\item Special case: Chuni
+\end{itemize}
+\end{frame}
+
+\framecard[colorblue]{{\color{colorwhite} \Large Send us a letter!\\
 nina.dobrushina@gmail.com\\
 agricolamz@gmail.com\\ 
 \vfill Presentation is availible here: \href{tinyurl.com/y6jjp38y}{\textbf{tinyurl.com/y6jjp38y}}\\
-\vfill  \includegraphics[height = 3cm]{images/02_qrcode}}}
+\vfill  \includegraphics[height = 3cm]{images/02_qrcode}}\\
+\vfill {\small  \color{colorwhite} All visualisation and statistical analysis were made in \texttt{R}~version~3.5.3~\citep{r19} with packages \texttt{ggplot2}~\citep{wickham16}, \texttt{lingtypology}~\citep{moroz17}, \texttt{lme4}~\citep{bates15}}}
 
 %\begin{frame}[allowframebreaks]{Список литературы}
 \begin{frame}{References}
