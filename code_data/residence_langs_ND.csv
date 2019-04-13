@@ -1,48 +1,48 @@
-residence,langs,expedition,status
-Chitab,аварский,"Archib, Chitab, Shalib",big
-Archib,арчинский,"Archib, Chitab, Shalib",small
-Shalib,лакский,"Archib, Chitab, Shalib",big
-Balkhar,лакский,"Balkhar, Tsulikana, Shukty, Kuli",big
-Kuli,лакский,"Balkhar, Tsulikana, Shukty, Kuli",big
-Tsulikana,лакский,"Balkhar, Tsulikana, Shukty, Kuli",big
-Shukty,шуктинский даргинского,"Balkhar, Tsulikana, Shukty, Kuli",medium
-Durangi,аварский,"Chankurbe, Durgeli, Durangi, Chabanmakhi",big
-Chabanmakhi,кадарский даргинский,"Chankurbe, Durgeli, Durangi, Chabanmakhi",medium
-Chankurbe,кадарский даргинский,"Chankurbe, Durgeli, Durangi, Chabanmakhi",medium
-Dorgeli,кумыкский,"Chankurbe, Durgeli, Durangi, Chabanmakhi",big
-Chuni,аварский,"Chuni, Tsukhta, Ubekimakhi",big
-Tsukhta,акушинский,"Chuni, Tsukhta, Ubekimakhi",medium
-Khpyuk,агульский,"Khpyuk",medium
-Burkikhan,агульский,"Burkikhan",medium
-Upper Ubekimakhi,цудахарский,"Chuni, Tsukhta, Ubekimakhi",medium
-Darvag,азербайджанский,"Darvag, Ersi, Dyubek, Dzhavgat",big
-Ersi,азербайджанский,"Darvag, Ersi, Dyubek, Dzhavgat",big
-Dzhavgat,кайтагский,"Darvag, Ersi, Dyubek, Dzhavgat",medium
-Dyubek,табасаранский,"Darvag, Ersi, Dyubek, Dzhavgat",big
-Kidero,аварский,"Hinuq, Kidero, Bezhta",medium
-Bezhta,бежтинский,"Hinuq, Kidero, Bezhta",medium
-Hinuq,гинухский,"Hinuq, Kidero, Bezhta",small
-Tad-Magitl',ахвахский,"Karata, Tukita, Tad-Magitl', Tlibisho",medium
-Tlibisho,багвалинский,"Karata, Tukita, Tad-Magitl', Tlibisho",medium
-Karata,каратинский,"Karata, Tukita, Tad-Magitl', Tlibisho",medium
-Tukita,тукитинский,"Karata, Tukita, Tad-Magitl', Tlibisho",small
-Khlyut,лезгинский,"Khlyut, Kiche, Rutul",big
-Kiche,рутульский,"Khlyut, Kiche, Rutul",medium
-Rutul,рутульский,"Khlyut, Kiche, Rutul",medium
-Ikhrek,рутульский,"Kina, Gel'mets, Ikhrek, Mikik",medium
-Kina,рутульский,"Kina, Gel'mets, Ikhrek, Mikik",medium
-Gel'mets,цахурский,"Kina, Gel'mets, Ikhrek, Mikik",medium
-Mikik,цахурский,"Kina, Gel'mets, Ikhrek, Mikik",medium
-Shangoda,аварский,"Mukar, Uri, Shangoda",big
-Mukar,лакский,"Mukar, Uri, Shangoda",big
-Uri,лакский,"Mukar, Uri, Shangoda",big
-Kizhani,аварский,"Rikvani, Kizhani, Zilo",big
-Rikvani,аварский,"Rikvani, Kizhani, Zilo",medium
-Zilo,зиловский,"Rikvani, Kizhani, Zilo",medium
-Obokh,аварский,"Shangoda, Obokh, Megeb",big
-Shangoda,аварский,"Shangoda, Obokh, Megeb",big
-Megeb,мегебский,"Shangoda, Obokh, Megeb",small
-Tumenler,кумыкский,"Yangikent, Mallakent, Chumli, Tumenler",big
-Yangikent,кумыкский,"Yangikent, Mallakent, Chumli, Tumenler",big
-Chumli,муиринский диалект даргинского,"Yangikent, Mallakent, Chumli, Tumenler",medium
-Mallakent,муиринский диалект даргинского,"Yangikent, Mallakent, Chumli, Tumenler",medium
+residence,langs,expedition,status,language,lat,long,feature
+Chitab,аварский,"Archib, Chitab, Shalib",big,Avar,42.13028,46.87639,Avar
+Durangi,аварский,"Chankurbe, Durgeli, Durangi, Chabanmakhi",big,Avar,42.635471,47.224909,Avar
+Chuni,аварский,"Chuni, Tsukhta, Ubekimakhi",big,Avar,42.34778,47.3025,Avar
+Kidero,аварский,"Hinuq, Kidero, Bezhta",medium,Avar,42.19306,45.95833,Avar
+Shangoda,аварский,"Mukar, Uri, Shangoda",big,Avar,42.24695,46.99976,Avar
+Kizhani,аварский,"Rikvani, Kizhani, Zilo",big,Avar,42.73167,46.31861,Avar
+Rikvani,аварский,"Rikvani, Kizhani, Zilo",medium,Avar,42.78139,46.31528,Avar
+Obokh,аварский,"Shangoda, Obokh, Megeb",big,Avar,42.28315,47.03676,Avar
+Shangoda,аварский,"Shangoda, Obokh, Megeb",big,Avar,42.24695,46.99976,Avar
+Khpyuk,агульский,Khpyuk,medium,Aghul,41.66667,47.66667,Aghul
+Burkikhan,агульский,Burkikhan,medium,Aghul,41.80778,47.5375,Aghul
+Darvag,азербайджанский,"Darvag, Ersi, Dyubek, Dzhavgat",big,North Azerbaijani,42.01667,48.07083,Azerbaijani
+Ersi,азербайджанский,"Darvag, Ersi, Dyubek, Dzhavgat",big,North Azerbaijani,42.02083,48.00972,Azerbaijani
+Tsukhta,акушинский,"Chuni, Tsukhta, Ubekimakhi",medium,Dargwa,42.34333,47.32972,Dargwa
+Archib,арчинский,"Archib, Chitab, Shalib",small,Archi,42.0647,46.868,Archi
+Tad-Magitl',ахвахский,"Karata, Tukita, Tad-Magitl', Tlibisho",medium,Akhvakh,42.550306,46.34775,Akhvakh
+Tlibisho,багвалинский,"Karata, Tukita, Tad-Magitl', Tlibisho",medium,Bagvalal,42.55833,46.30111,Bagvalal
+Bezhta,бежтинский,"Hinuq, Kidero, Bezhta",medium,Bezhta,42.13361,46.12194,Bezhta
+Hinuq,гинухский,"Hinuq, Kidero, Bezhta",small,Hinuq,42.1767133,45.9881238,Hinuq
+Zilo,зиловский,"Rikvani, Kizhani, Zilo",medium,Andi,42.73167,46.31861,Andi
+Chabanmakhi,кадарский даргинский,"Chankurbe, Durgeli, Durangi, Chabanmakhi",medium,Dargwa,42.63722,47.26028,Dargwa
+Chankurbe,кадарский даргинский,"Chankurbe, Durgeli, Durangi, Chabanmakhi",medium,Dargwa,42.628201,47.311184,Dargwa
+Dzhavgat,кайтагский,"Darvag, Ersi, Dyubek, Dzhavgat",medium,Dargwa,42.03333,47.91667,Dargwa
+Karata,каратинский,"Karata, Tukita, Tad-Magitl', Tlibisho",medium,Karata,42.58333,46.35,Karata
+Dorgeli,кумыкский,"Chankurbe, Durgeli, Durangi, Chabanmakhi",big,Kumyk,42.66556,47.29667,Kumyk
+Tumenler,кумыкский,"Yangikent, Mallakent, Chumli, Tumenler",big,Kumyk,42.1824444,47.8328923,Kumyk
+Yangikent,кумыкский,"Yangikent, Mallakent, Chumli, Tumenler",big,Kumyk,42.20417,47.82917,Kumyk
+Shalib,лакский,"Archib, Chitab, Shalib",big,Lak,42.0905571,46.91833496,Lak
+Balkhar,лакский,"Balkhar, Tsulikana, Shukty, Kuli",big,Lak,42.2775,47.23056,Lak
+Kuli,лакский,"Balkhar, Tsulikana, Shukty, Kuli",big,Lak,42.01667,47.23333,Lak
+Tsulikana,лакский,"Balkhar, Tsulikana, Shukty, Kuli",big,Lak,42.25777817,47.25916672,Lak
+Mukar,лакский,"Mukar, Uri, Shangoda",big,Lak,42.20722,47.0225,Lak
+Uri,лакский,"Mukar, Uri, Shangoda",big,Lak,42.20528,47.01528,Lak
+Khlyut,лезгинский,"Khlyut, Kiche, Rutul",big,Lezgian,41.5,47.53333,Lezgian
+Megeb,мегебский,"Shangoda, Obokh, Megeb",small,Dargwa,42.25028,47.04833,Dargwa
+Chumli,муиринский диалект даргинского,"Yangikent, Mallakent, Chumli, Tumenler",medium,Dargwa,42.20167,47.77306,Dargwa
+Mallakent,муиринский диалект даргинского,"Yangikent, Mallakent, Chumli, Tumenler",medium,Dargwa,42.17638,47.79464,Dargwa
+Kiche,рутульский,"Khlyut, Kiche, Rutul",medium,Rutul,41.51667,47.46667,Rutul
+Rutul,рутульский,"Khlyut, Kiche, Rutul",medium,Rutul,41.53333,47.41667,Rutul
+Ikhrek,рутульский,"Kina, Gel'mets, Ikhrek, Mikik",medium,Rutul,41.69611,47.21444,Rutul
+Kina,рутульский,"Kina, Gel'mets, Ikhrek, Mikik",medium,Rutul,41.61667,47.26722,Rutul
+Dyubek,табасаранский,"Darvag, Ersi, Dyubek, Dzhavgat",big,Tabasaran,42.0275,47.96917,Tabasaran
+Tukita,тукитинский,"Karata, Tukita, Tad-Magitl', Tlibisho",small,Karata,42.57056,46.37278,Karata
+Gel'mets,цахурский,"Kina, Gel'mets, Ikhrek, Mikik",medium,Tsakhur,41.61667,47.16667,Tsakhur
+Mikik,цахурский,"Kina, Gel'mets, Ikhrek, Mikik",medium,Tsakhur,41.63694,47.16556,Tsakhur
+Upper Ubekimakhi,цудахарский,"Chuni, Tsukhta, Ubekimakhi",medium,Dargwa,42.37037,47.24284,Dargwa
+Shukty,шуктинский даргинского,"Balkhar, Tsulikana, Shukty, Kuli",medium,Dargwa,42.22444,47.305,Dargwa
