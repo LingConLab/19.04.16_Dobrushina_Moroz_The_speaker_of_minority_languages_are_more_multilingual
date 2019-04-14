@@ -173,7 +173,6 @@ df %>%
 
 library(lme4)
 library(lmerTest)
-
 df$status <- factor(df$status, levels = c("small", "medium", "big"))
 fit <- glmer(sum_langs ~ status + (1|residence.en)+ (1|decade), data = df, family = "poisson")
 summary(fit)
@@ -184,3 +183,15 @@ sjstats::overdisp(fit)
 plot(fit)
 
 # 14_linear_residuals_750_400
+
+library(effects)
+ef <- effect("status", fit)
+ef <-  as.data.frame(ef)
+ef %>% 
+  ggplot(aes(status, fit, color = status))+
+  geom_pointrange(aes(ymin = lower, ymax = upper), size = 1.2)+
+  labs(x = "", y = "predicted value")+
+  theme(text=element_text(family="Brill", size = 20))+
+  scale_color_manual(name = "", values = c("#1f77b4", "#ff7f0e", "#2ca02c"))
+
+# 15_predicted_750_400
