@@ -182,7 +182,7 @@ sjstats::overdisp(fit)
 
 plot(fit)
 
-# 14_linear_residuals_750_400
+# 14_poisson_residuals_750_400
 
 library(effects)
 ef <- effect("status", fit)
@@ -190,7 +190,7 @@ ef <-  as.data.frame(ef)
 ef %>% 
   ggplot(aes(status, fit, color = status))+
   geom_pointrange(aes(ymin = lower, ymax = upper), size = 1.2)+
-  labs(x = "", y = "predicted value")+
+  labs(x = "", y = "predicted number of L2")+
   theme(text=element_text(family="Brill", size = 20))+
   scale_color_manual(name = "", values = c("#1f77b4", "#ff7f0e", "#2ca02c"))
 
