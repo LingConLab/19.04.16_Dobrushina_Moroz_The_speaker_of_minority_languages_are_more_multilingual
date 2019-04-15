@@ -34,8 +34,8 @@ map.feature(language = residence_langs$language,
             legend.position = "topleft")
 
 # 04_map_class_930_700
-
-read_tsv("https://multidagestan.com/api/respondents-flat?format=tsv&limit=0&fields=expedition.name,name,code,residence.en,sex,direct,birth,death,language,level") %>% 
+df <- read_tsv("https://multidagestan.com/api/respondents-flat?format=tsv&limit=0&fields=expedition.name,name,code,residence.en,sex,direct,birth,death,language,level") 
+df %>% 
   mutate(level = if_else(level == 2, 1, level),
          level = if_else(level == -1, 0, level)) %>% 
   spread(language, level, fill = 0) %>% 
@@ -95,7 +95,7 @@ df %>%
         strip.background=element_blank(),
         strip.text.x = element_text(color = "white"),
         text=element_text(family="Brill", size = 16))+
-  scale_fill_discrete(name = "number of languages") + 
+  scale_fill_discrete(name = "number of L2") + 
   guides(fill = guide_legend(nrow = 1)) ->
   p
 
