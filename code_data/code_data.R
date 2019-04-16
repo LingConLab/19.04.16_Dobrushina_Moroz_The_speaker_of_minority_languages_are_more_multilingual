@@ -35,6 +35,9 @@ map.feature(language = residence_langs$language,
 
 # 04_map_class_930_700
 df <- read_tsv("https://multidagestan.com/api/respondents-flat?format=tsv&limit=0&fields=expedition.name,name,code,residence.en,sex,direct,birth,death,language,level") 
+
+df <- read_tsv("https://multidagestan.com/api/respondents-flat?format=tsv&limit=0&fields=expedition.name,name,code,residence.en,sex,direct,birth,death,language,level") 
+
 df %>% 
   mutate(level = if_else(level == 2, 1, level),
          level = if_else(level == -1, 0, level)) %>% 
